@@ -2,9 +2,4 @@
 *~
 *.orig
 public
-*.env
-*.bak
-*~
-*.orig
-public
 .env
