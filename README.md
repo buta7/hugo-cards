@@ -61,6 +61,12 @@ git push -u origin master
 
 Github>Settings>Gighub Pages>Source>master branch/docs folder
 
+## Github Actionsの利用
+
+* .github/workflows/gh-pages.yamlを作成
+    * ソースはmasterブランチ
+    * 出力はpublicフォルダの内容をgh-pagesブランチ
+
 ## 既存のレポジトリからクローンする場合
 
 ```shell
@@ -84,12 +90,6 @@ content/posts/hello.md created
 
 ```shell
 vi content/posts/hello.md
-```
-
-### ポートフォリオ
-
-```shell
-vi data/artworks.toml
 ```
 
 ## Link
