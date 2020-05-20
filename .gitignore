@@ -1,0 +1,10 @@
+*.bak
+*~
+*.orig
+public
+*.env
+*.bak
+*~
+*.orig
+public
+.env
