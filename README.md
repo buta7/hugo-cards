@@ -32,7 +32,7 @@ git submodule add git@github.com:bul-ikana/hugo-cards.git
 ```shell
 cd hugo-cards
 cp -pr themes/hugo-cards/exampleSite/{content,config.toml} .
-cp -pr themes/hugo-cards/{layouts,static,archetypes} .
+cp -pr themes/hugo-cards/{layouts,static,archetypes,assets} .
 ```
 
 config.toml
@@ -44,7 +44,6 @@ title = "Hugo Cards"
 publishDir = "docs"
 #themesDir = "../.."
 paginate = 6
-...
 
 ```
 
