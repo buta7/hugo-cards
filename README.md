@@ -41,7 +41,7 @@ config.toml
 baseURL = "https://higebobo.github.io/hugo-cards/"
 languageCode = "ja"
 title = "Hugo Cards"
-publishDir = "docs"
+#publishDir = "docs"
 #themesDir = "../.."
 paginate = 6
 
@@ -52,8 +52,8 @@ paginate = 6
 Githubレポジトリ作成後
 
 ```shell
-git remote add origin git@github.com:higebobo/hugo-cards.git
 cp somplace/Makefile
+git remote add origin git@github.com:higebobo/hugo-cards.git
 git add .
 git commit -m 'init'
 git push -u origin master
