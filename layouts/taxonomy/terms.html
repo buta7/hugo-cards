@@ -1,6 +1,6 @@
 {{ define "main" }}
-
-<div class="home">
+<div class="row">
+<div class="col-md-8">
 <h2>{{ .Title }}</h2>
 {{ if eq .Title "Tags"}}
     {{ if lt 0 (len .Site.Taxonomies.tags) }}
@@ -21,4 +21,11 @@
 {{ end }}
 </div>
 
+
+{{ partial "sidebar.html" . }}
+
+</div>
+
+
+{{ partial "fb-script.html" . }}
 {{ end }}
