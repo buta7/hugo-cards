@@ -11,10 +11,10 @@ paginate = 6
   builtBy = "bool"
   defaultImage = "gopher.jpg"
 
-  facebook = ""
+  facebook = "https://www.facebook.com/higebobo"
   quora = ""
-  twitter = "http://twitter.com/bul_ikana"
-  github = "http://github.com/bul-ikana"
+  twitter = "https://twitter.com/higebobo"
+  github = "https://github.com/higebobo"
   email = ""
 
   fbLikeBox = ""
@@ -26,5 +26,5 @@ paginate = 6
   disqus = ""
 
   [params.copyright]
-     name = "bool"
-     link = "https://bool.netlify.com"
+     name = "higebobo"
+     link = "https://higebobo.netlify.com"
