@@ -7,8 +7,8 @@ theme = "hugo-cards"
 #themesDir = "./themes"
 paginate = 6
 
-[taxonomies]
-  tag = "tags"
+#[taxonomies]
+#  tag = "tags"
 
 [params]
   builtBy = "bool"
@@ -31,3 +31,8 @@ paginate = 6
   [params.copyright]
      name = "higebobo"
      link = "https://higebobo.netlify.com"
+
+[[menu.main]]
+url = "/tags"
+name = "tags"
+weight = 1
