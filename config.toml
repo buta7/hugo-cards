@@ -7,6 +7,9 @@ theme = "hugo-cards"
 #themesDir = "./themes"
 paginate = 6
 
+[taxonomies]
+  tag = "tags"
+
 [params]
   builtBy = "bool"
   defaultImage = "gopher.jpg"

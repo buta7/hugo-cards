@@ -13,11 +13,12 @@ hugo new site hugo-cards
 ```shell
 cd hugo-cards
 git init
-echo '*.bak' >> .gitignore
 echo '*~' >> .gitignore
+echo '*.bak' >> .gitignore
 echo '*.orig' >> .gitignore
-echo 'public' >> .gitignore
 echo '.env' >> .gitignore
+echo 'public' >> .gitignore
+echo 'resources' >> .gitignore
 ```
 
 テーマ設定
@@ -32,7 +33,7 @@ git submodule add git@github.com:bul-ikana/hugo-cards.git
 ```shell
 cd hugo-cards
 cp -pr themes/hugo-cards/exampleSite/{content,config.toml} .
-cp -pr themes/hugo-cards/{layouts,static,archetypes,assets} .
+cp -pr themes/hugo-cards/archetypes .
 ```
 
 config.toml
